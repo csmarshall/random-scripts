@@ -1,0 +1,4 @@
+# Rules for fit-statUSB
+
+# modern ubuntu
+ACTION=="add", ATTRS{idVendor}=="2047", ATTRS{idProduct}=="03df", MODE:="666", GROUP="plugdev", RUN{program}=="/bin/stty -F /dev/ttyACM0 9600 raw -echo -echoe -echok -echoctl -echoke"

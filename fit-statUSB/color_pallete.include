@@ -1,0 +1,432 @@
+case "${1}" in
+# https://en.wikipedia.org/wiki/Web_colors#HTML_color_names 
+# Red colors
+lightsalmon) #COLOROPTION-RED
+	COLOR="#FFA07A"	# rgb(255,160,122)
+	;;
+salmon) #COLOROPTION-RED
+	COLOR="#FA8072"	# rgb(250,128,114)
+	;;
+darksalmon) #COLOROPTION-RED
+	COLOR="#E9967A"	# rgb(233,150,122)
+	;;
+lightcoral) #COLOROPTION-RED
+	COLOR="#F08080"	# rgb(240,128,128)
+	;;
+indianred) #COLOROPTION-RED
+	COLOR="#CD5C5C"	# rgb(205,92,92)
+	;;
+crimson) #COLOROPTION-RED
+	COLOR="#DC143C"	# rgb(220,20,60)
+	;;
+firebrick) #COLOROPTION-RED
+	COLOR="#B22222"	# rgb(178,34,34)
+	;;
+red) #COLOROPTION-RED
+	COLOR="#FF0000"	# rgb(255,0,0)
+	;;
+darkred) #COLOROPTION-RED
+	COLOR="#8B0000"	# rgb(139,0,0)
+	;;
+# Orange colors
+coral) #COLOROPTION-ORANGE
+	COLOR="#FF7F50"	# rgb(255,127,80)
+	;;
+tomato) #COLOROPTION-ORANGE
+	COLOR="#FF6347"	# rgb(255,99,71)
+	;;
+orangered) #COLOROPTION-ORANGE
+	COLOR="#FF4500"	# rgb(255,69,0)
+	;;
+gold) #COLOROPTION-ORANGE
+	COLOR="#FFD700"	# rgb(255,215,0)
+	;;
+orange) #COLOROPTION-ORANGE
+	COLOR="#FFA500"	# rgb(255,165,0)
+	;;
+darkorange) #COLOROPTION-ORANGE
+	COLOR="#FF8C00"	# rgb(255,140,0)
+	;;
+# Yellow colors
+lightyellow) #COLOROPTION-YELLOW
+	COLOR="#FFFFE0"	# rgb(255,255,224)
+	;;
+lemonchiffon) #COLOROPTION-YELLOW
+	COLOR="#FFFACD"	# rgb(255,250,205)
+	;;
+lightgoldenrodyellow) #COLOROPTION-YELLOW
+	COLOR="#FAFAD2"	# rgb(250,250,210)
+	;;
+papayawhip) #COLOROPTION-YELLOW
+	COLOR="#FFEFD5"	# rgb(255,239,213)
+	;;
+moccasin) #COLOROPTION-YELLOW
+	COLOR="#FFE4B5"	# rgb(255,228,181)
+	;;
+peachpuff) #COLOROPTION-YELLOW
+	COLOR="#FFDAB9"	# rgb(255,218,185)
+	;;
+palegoldenrod) #COLOROPTION-YELLOW
+	COLOR="#EEE8AA"	# rgb(238,232,170)
+	;;
+khaki) #COLOROPTION-YELLOW
+	COLOR="#F0E68C"	# rgb(240,230,140)
+	;;
+darkkhaki) #COLOROPTION-YELLOW
+	COLOR="#BDB76B"	# rgb(189,183,107)
+	;;
+yellow) #COLOROPTION-YELLOW
+	COLOR="#FFFF00"	# rgb(255,255,0)
+	;;
+# Green colors
+lawngreen) #COLOROPTION-GREEN
+	COLOR="#7CFC00"	# rgb(124,252,0)
+	;;
+chartreuse) #COLOROPTION-GREEN
+	COLOR="#7FFF00"	# rgb(127,255,0)
+	;;
+limegreen) #COLOROPTION-GREEN
+	COLOR="#32CD32"	# rgb(50,205,50)
+	;;
+lime) #COLOROPTION-GREEN
+	COLOR="#00FF00"	# rgb(0.255.0)
+	;;
+forestgreen) #COLOROPTION-GREEN
+	COLOR="#228B22"	# rgb(34,139,34)
+	;;
+green) #COLOROPTION-GREEN
+	COLOR="#008000"	# rgb(0,128,0)
+	;;
+darkgreen) #COLOROPTION-GREEN
+	COLOR="#006400"	# rgb(0,100,0)
+	;;
+greenyellow) #COLOROPTION-GREEN
+	COLOR="#ADFF2F"	# rgb(173,255,47)
+	;;
+yellowgreen) #COLOROPTION-GREEN
+	COLOR="#9ACD32"	# rgb(154,205,50)
+	;;
+springgreen) #COLOROPTION-GREEN
+	COLOR="#00FF7F"	# rgb(0,255,127)
+	;;
+mediumspringgreen) #COLOROPTION-GREEN
+	COLOR="#00FA9A"	# rgb(0,250,154)
+	;;
+lightgreen) #COLOROPTION-GREEN
+	COLOR="#90EE90"	# rgb(144,238,144)
+	;;
+palegreen) #COLOROPTION-GREEN
+	COLOR="#98FB98"	# rgb(152,251,152)
+	;;
+darkseagreen) #COLOROPTION-GREEN
+	COLOR="#8FBC8F"	# rgb(143,188,143)
+	;;
+mediumseagreen) #COLOROPTION-GREEN
+	COLOR="#3CB371"	# rgb(60,179,113)
+	;;
+seagreen) #COLOROPTION-GREEN
+	COLOR="#2E8B57"	# rgb(46,139,87)
+	;;
+olive) #COLOROPTION-GREEN
+	COLOR="#808000"	# rgb(128,128,0)
+	;;
+darkolivegreen) #COLOROPTION-GREEN
+	COLOR="#556B2F"	# rgb(85,107,47)
+	;;
+olivedrab) #COLOROPTION-GREEN
+	COLOR="#6B8E23"	# rgb(107,142,35)
+	;;
+# Cyan colors
+lightcyan) #COLOROPTION-CYAN
+	COLOR="#E0FFFF"	# rgb(224,255,255)
+	;;
+cyan) #COLOROPTION-CYAN
+	COLOR="#00FFFF"	# rgb(0,255,255)
+	;;
+aqua) #COLOROPTION-CYAN
+	COLOR="#00FFFF"	# rgb(0,255,255)
+	;;
+aquamarine) #COLOROPTION-CYAN
+	COLOR="#7FFFD4"	# rgb(127,255,212)
+	;;
+mediumaquamarine) #COLOROPTION-CYAN
+	COLOR="#66CDAA"	# rgb(102,205,170)
+	;;
+paleturquoise) #COLOROPTION-CYAN
+	COLOR="#AFEEEE"	# rgb(175,238,238)
+	;;
+turquoise) #COLOROPTION-CYAN
+	COLOR="#40E0D0"	# rgb(64,224,208)
+	;;
+mediumturquoise) #COLOROPTION-CYAN
+	COLOR="#48D1CC"	# rgb(72,209,204)
+	;;
+darkturquoise) #COLOROPTION-CYAN
+	COLOR="#00CED1"	# rgb(0,206,209)
+	;;
+lightseagreen) #COLOROPTION-CYAN
+	COLOR="#20B2AA"	# rgb(32,178,170)
+	;;
+cadetblue) #COLOROPTION-CYAN
+	COLOR="#5F9EA0"	# rgb(95,158,160)
+	;;
+darkcyan) #COLOROPTION-CYAN
+	COLOR="#008B8B"	# rgb(0,139,139)
+	;;
+teal) #COLOROPTION-CYAN
+	COLOR="#008080"	# rgb(0,128,128)
+	;;
+# Blue colors
+powderblue) #COLOROPTION-BLUE
+	COLOR="#B0E0E6"	# rgb(176,224,230)
+	;;
+lightblue) #COLOROPTION-BLUE
+	COLOR="#ADD8E6"	# rgb(173,216,230)
+	;;
+lightskyblue) #COLOROPTION-BLUE
+	COLOR="#87CEFA"	# rgb(135,206,250)
+	;;
+skyblue) #COLOROPTION-BLUE
+	COLOR="#87CEEB"	# rgb(135,206,235)
+	;;
+deepskyblue) #COLOROPTION-BLUE
+	COLOR="#00BFFF"	# rgb(0,191,255)
+	;;
+lightsteelblue) #COLOROPTION-BLUE
+	COLOR="#B0C4DE"	# rgb(176,196,222)
+	;;
+dodgerblue) #COLOROPTION-BLUE
+	COLOR="#1E90FF"	# rgb(30,144,255)
+	;;
+cornflowerblue) #COLOROPTION-BLUE
+	COLOR="#6495ED"	# rgb(100,149,237)
+	;;
+steelblue) #COLOROPTION-BLUE
+	COLOR="#4682B4"	# rgb(70,130,180)
+	;;
+royalblue) #COLOROPTION-BLUE
+	COLOR="#4169E1"	# rgb(65,105,225)
+	;;
+blue) #COLOROPTION-BLUE
+	COLOR="#0000FF"	# rgb(0,0,255)
+	;;
+mediumblue) #COLOROPTION-BLUE
+	COLOR="#0000CD"	# rgb(0,0,205)
+	;;
+darkblue) #COLOROPTION-BLUE
+	COLOR="#00008B"	# rgb(0,0,139)
+	;;
+navy) #COLOROPTION-BLUE
+	COLOR="#000080"	# rgb(0,0,128)
+	;;
+midnightblue) #COLOROPTION-BLUE
+	COLOR="#191970"	# rgb(25,25,112)
+	;;
+mediumslateblue) #COLOROPTION-BLUE
+	COLOR="#7B68EE"	# rgb(123,104,238)
+	;;
+slateblue) #COLOROPTION-BLUE
+	COLOR="#6A5ACD"	# rgb(106,90,205)
+	;;
+darkslateblue) #COLOROPTION-BLUE
+	COLOR="#483D8B"	# rgb(72,61,139)
+	;;
+# Purple colors
+lavender) #COLOROPTION-PURPLE
+	COLOR="#E6E6FA"	# rgb(230,230,250)
+	;;
+thistle) #COLOROPTION-PURPLE
+	COLOR="#D8BFD8"	# rgb(216,191,216)
+	;;
+plum) #COLOROPTION-PURPLE
+	COLOR="#DDA0DD"	# rgb(221,160,221)
+	;;
+violet) #COLOROPTION-PURPLE
+	COLOR="#EE82EE"	# rgb(238,130,238)
+	;;
+orchid) #COLOROPTION-PURPLE
+	COLOR="#DA70D6"	# rgb(218,112,214)
+	;;
+fuchsia) #COLOROPTION-PURPLE
+	COLOR="#FF00FF"	# rgb(255,0,255)
+	;;
+magenta) #COLOROPTION-PURPLE
+	COLOR="#FF00FF"	# rgb(255,0,255)
+	;;
+mediumorchid) #COLOROPTION-PURPLE
+	COLOR="#BA55D3"	# rgb(186,85,211)
+	;;
+mediumpurple) #COLOROPTION-PURPLE
+	COLOR="#9370DB"	# rgb(147,112,219)
+	;;
+blueviolet) #COLOROPTION-PURPLE
+	COLOR="#8A2BE2"	# rgb(138,43,226)
+	;;
+darkviolet) #COLOROPTION-PURPLE
+	COLOR="#9400D3"	# rgb(148,0,211)
+	;;
+darkorchid) #COLOROPTION-PURPLE
+	COLOR="#9932CC"	# rgb(153,50,204)
+	;;
+darkmagenta) #COLOROPTION-PURPLE
+	COLOR="#8B008B"	# rgb(139,0,139)
+	;;
+purple) #COLOROPTION-PURPLE
+	COLOR="#800080"	# rgb(128,0,128)
+	;;
+indigo) #COLOROPTION-PURPLE
+	COLOR="#4B0082"	# rgb(75,0,130)
+	;;
+# Pink colors
+pink) #COLOROPTION-PINK
+	COLOR="#FFC0CB"	# rgb(255,192,203)
+	;;
+lightpink) #COLOROPTION-PINK
+	COLOR="#FFB6C1"	# rgb(255,182,193)
+	;;
+hotpink) #COLOROPTION-PINK
+	COLOR="#FF69B4"	# rgb(255,105,180)
+	;;
+deeppink) #COLOROPTION-PINK
+	COLOR="#FF1493"	# rgb(255,20,147)
+	;;
+palevioletred) #COLOROPTION-PINK
+	COLOR="#DB7093"	# rgb(219,112,147)
+	;;
+mediumvioletred) #COLOROPTION-PINK
+	COLOR="#C71585"	# rgb(199,21,133)
+	;;
+# White colors
+white) #COLOROPTION-WHITE
+	COLOR="#FFFFFF"	# rgb(255,255,255)
+	;;
+snow) #COLOROPTION-WHITE
+	COLOR="#FFFAFA"	# rgb(255,250,250)
+	;;
+honeydew) #COLOROPTION-WHITE
+	COLOR="#F0FFF0"	# rgb(240,255,240)
+	;;
+mintcream) #COLOROPTION-WHITE
+	COLOR="#F5FFFA"	# rgb(245,255,250)
+	;;
+azure) #COLOROPTION-WHITE
+	COLOR="#F0FFFF"	# rgb(240,255,255)
+	;;
+aliceblue) #COLOROPTION-WHITE
+	COLOR="#F0F8FF"	# rgb(240,248,255)
+	;;
+ghostwhite) #COLOROPTION-WHITE
+	COLOR="#F8F8FF"	# rgb(248,248,255)
+	;;
+whitesmoke) #COLOROPTION-WHITE
+	COLOR="#F5F5F5"	# rgb(245,245,245)
+	;;
+seashell) #COLOROPTION-WHITE
+	COLOR="#FFF5EE"	# rgb(255,245,238)
+	;;
+beige) #COLOROPTION-WHITE
+	COLOR="#F5F5DC"	# rgb(245,245,220)
+	;;
+oldlace) #COLOROPTION-WHITE
+	COLOR="#FDF5E6"	# rgb(253,245,230)
+	;;
+floralwhite) #COLOROPTION-WHITE
+	COLOR="#FFFAF0"	# rgb(255,250,240)
+	;;
+ivory) #COLOROPTION-WHITE
+	COLOR="#FFFFF0"	# rgb(255,255,240)
+	;;
+antiquewhite) #COLOROPTION-WHITE
+	COLOR="#FAEBD7"	# rgb(250,235,215)
+	;;
+linen) #COLOROPTION-WHITE
+	COLOR="#FAF0E6"	# rgb(250,240,230)
+	;;
+lavenderblush) #COLOROPTION-WHITE
+	COLOR="#FFF0F5"	# rgb(255,240,245)
+	;;
+mistyrose) #COLOROPTION-WHITE
+	COLOR="#FFE4E1"	# rgb(255,228,225)
+	;;
+# Gray colors
+gainsboro) #COLOROPTION-GRAY
+	COLOR="#DCDCDC"	# rgb(220,220,220)
+	;;
+lightgray) #COLOROPTION-GRAY
+	COLOR="#D3D3D3"	# rgb(211,211,211)
+	;;
+silver) #COLOROPTION-GRAY
+	COLOR="#C0C0C0"	# rgb(192,192,192)
+	;;
+darkgray) #COLOROPTION-GRAY
+	COLOR="#A9A9A9"	# rgb(169,169,169)
+	;;
+gray) #COLOROPTION-GRAY
+	COLOR="#808080"	# rgb(128,128,128)
+	;;
+dimgray) #COLOROPTION-GRAY
+	COLOR="#696969"	# rgb(105,105,105)
+	;;
+lightslategray) #COLOROPTION-GRAY
+	COLOR="#778899"	# rgb(119,136,153)
+	;;
+slategray) #COLOROPTION-GRAY
+	COLOR="#708090"	# rgb(112,128,144)
+	;;
+darkslategray) #COLOROPTION-GRAY
+	COLOR="#2F4F4F"	# rgb(47,79,79)
+	;;
+# Brown colors
+cornsilk) #COLOROPTION-BROWN
+	COLOR="#FFF8DC"	# rgb(255,248,220)
+	;;
+blanchedalmond) #COLOROPTION-BROWN
+	COLOR="#FFEBCD"	# rgb(255,235,205)
+	;;
+bisque) #COLOROPTION-BROWN
+	COLOR="#FFE4C4"	# rgb(255,228,196)
+	;;
+navajowhite) #COLOROPTION-BROWN
+	COLOR="#FFDEAD"	# rgb(255,222,173)
+	;;
+wheat) #COLOROPTION-BROWN
+	COLOR="#F5DEB3"	# rgb(245,222,179)
+	;;
+burlywood) #COLOROPTION-BROWN
+	COLOR="#DEB887"	# rgb(222,184,135)
+	;;
+tan) #COLOROPTION-BROWN
+	COLOR="#D2B48C"	# rgb(210,180,140)
+	;;
+rosybrown) #COLOROPTION-BROWN
+	COLOR="#BC8F8F"	# rgb(188,143,143)
+	;;
+sandybrown) #COLOROPTION-BROWN
+	COLOR="#F4A460"	# rgb(244,164,96)
+	;;
+goldenrod) #COLOROPTION-BROWN
+	COLOR="#DAA520"	# rgb(218,165,32)
+	;;
+peru) #COLOROPTION-BROWN
+	COLOR="#CD853F"	# rgb(205,133,63)
+	;;
+chocolate) #COLOROPTION-BROWN
+	COLOR="#D2691E"	# rgb(210,105,30)
+	;;
+saddlebrown) #COLOROPTION-BROWN
+	COLOR="#8B4513"	# rgb(139,69,19)
+	;;
+sienna) #COLOROPTION-BROWN
+	COLOR="#A0522D"	# rgb(160,82,45)
+	;;
+brown) #COLOROPTION-BROWN
+	COLOR="#A52A2A"	# rgb(165,42,42)
+	;;
+maroon) #COLOROPTION-BROWN
+	COLOR="#800000"	# rgb(128,0,0)
+	;;
+# Special
+black | off | *) #COLOROPTION-SPECIAL
+	COLOR="#000000"	# rgb(0,0,0)
+	;;
+esac
