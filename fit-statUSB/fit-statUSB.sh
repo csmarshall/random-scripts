@@ -112,8 +112,8 @@ fi
 COMMAND_STRING="$(echo ${COMMAND_STRING} | sed -e "s/SPEED/${SPEED}/g")"
 
 if [[ ${PULSE} ]] ; then
-    ts "Pulsing" > /dev/stderr
-    PULSE_SPEED=$((${SPEED}*2))
+    PULSE_SPEED="$(echo ${SPEED} | awk -F: '{ printf "%04i\n", $1*2 }')"
+    ts "Pulsing speed: ${PULSE_SPEED}"
     COMMAND_STRING="$(echo ${COMMAND_STRING} | sed -e "s/${SPEED}$/${PULSE_SPEED}/g")"
 fi
 
